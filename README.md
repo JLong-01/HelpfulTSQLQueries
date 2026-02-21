@@ -59,3 +59,9 @@ Helpful when you're reloading a large table, disabled all of the indexes on the 
 NOTE: There's two derivatives in this set.
 - One that is intended for initial analysis and looks at usage stat metrics, which means it would get blocked by active rebuilds on a given table
 - One that does not look at usage metrics so it can be run even while rebuilds are underway
+
+### Table Creation - Clustered Composite Index.sql
+Example of how to create a table with a composite primary key (combinations of multiple columns become the unique identifier).
+
+### Table Creation - Clustered Index Auto Incrementing.sql
+Example of how to create a table with a standard auto-incrementing unique identifier.
